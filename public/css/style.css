@@ -1,0 +1,327 @@
+@font-face {
+    font-family: segoeui;
+    src: url(../fonts/segoeui.ttf);
+}
+@font-face {
+    font-family: segoeuib;
+    src: url(../fonts/segoeuib.ttf);
+}
+@font-face {
+    font-family: segoeuisb;
+    src: url(../fonts/seguisb.ttf);
+}
+@font-face {
+    font-family: segoeuil;
+    src: url(../fonts/segoeuil.ttf);
+}
+@font-face {
+    font-family: segoeuisl;
+    src: url(../fonts/segoeuisl.ttf);
+}
+
+@media (min-width: 768px) {
+
+    .navbar {
+      margin-bottom:-50px;
+      background-color: transparent;
+      border-width: 0px;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar li {
+      width: 160px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      color:#f3f36d;
+      font-size: 18px;
+      font-family: segoeuisb;
+      letter-spacing: 0.5px;
+    }
+    
+}
+
+
+.navbar-default .navbar-nav > li:hover{
+  border-top-width: 5px;
+}
+
+
+.top-view {
+  background: url('../img/web-hmif-background-top.jpg') no-repeat bottom center scroll;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin-top:-5px;
+}
+
+.top-view-short {
+  background: url('../img/web-hmif-background-top.jpg') no-repeat bottom center scroll;
+  background-size:cover;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+.top-view .logo {
+  margin-top:15vh;
+  width: auto;
+  height: 20vh;
+}
+
+.top-view h1 {
+  font-family: segoeuil;
+  font-size: 40px;
+  color:#fff;
+}
+
+.top-view p {
+  font-family : segoeuil;
+  color:#fff;
+  font-size: 25px;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+
+.top-view .btn-default {
+  background-color: #f3f36d;
+  border-width: 0px;
+  font-color:#fff;
+  width: 150px;
+  font-family: segoeuib;
+  font-size:16px;
+  margin-top:100px;
+  border-radius: 25px;
+}
+
+.body {
+  overflow-x:hidden;
+}
+
+.blog {
+  margin-top:100px;
+  text-align: justify;
+}
+
+.post h1 {
+  color:#686119;
+  font-family: segoeuil;
+  font-size: 36px;
+}
+
+.post > h1 >  a:hover{
+  text-decoration: none;
+}
+
+.post .date {
+  margin-top:-10px;
+  font-family: segoeui;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.post p{
+  margin-top:10px;
+  font-family: segoeui;
+  font-size: 20px;
+}
+
+.post img{
+  width: 100%;
+  margin-top:10px;
+}
+
+.achievement-banner {
+  margin-top:100px;
+  position:absolute;
+  background-image : url('../img/web-hmif-achievement-banner.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height:200px;
+  display:block;
+}
+
+.achievement-banner h1 {
+  position:absolute;
+  top:50px;
+  left:130px;
+  font-family: segoeuisb;
+  color:#fff;
+  font-size: 50px;
+}
+
+.achievement-banner img {
+  position:absolute;
+  right:20px;
+  top:-10px;
+  height:220px;
+}
+
+.box {
+  background: #fff;
+  box-shadow: 2px 2px 0 0 #e5e5e5;
+  margin: 0 0 2em;
+  padding: 0px;
+  position: relative;
+}
+
+.item-plain {
+  transition: opacity 0.6s ease 0;
+  background-color: #F3F36D;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.item-plain:hover{
+
+  opacity: 1;
+}
+
+.achievement-img {
+  width: 100%;
+  height:200px;
+  background-color:#f3f36d;
+}
+
+.achievement-item h3{
+  text-align: center;
+  width: 100%;
+  margin:0px;
+  font-family: segoeuil;
+  position: absolute;
+  font-size:26px;
+  bottom:20%;
+  left:0;
+}
+
+.achievement-item .glyphicon{
+  text-align: center;
+  width: 100%;
+  margin:0px;
+  position: absolute;
+  font-size:60px;
+  top:30%;
+  left:0;
+}
+
+.after-banner {
+  margin-top:360px;
+}
+
+.achievement p{
+  font-family: segoeui;
+  font-size: 20px;
+}
+
+.work-banner {
+  margin-top:100px;
+  position:absolute;
+  background-image : url('../img/web-hmif-achievement-banner.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height:200px;
+  display:block;
+}
+
+.work-banner h1 {
+  position:absolute;
+  top:50px;
+  right:130px;
+  font-family: segoeuisb;
+  color:#fff;
+  font-size: 50px;
+}
+
+.work-banner img {
+  position:absolute;
+  left:20px;
+  top:-10px;
+  height:220px;
+}
+
+.footer {
+  background-color:#f3f36d;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.footer h4 {
+  font-family: segoeuisb;
+  margin-bottom: 5px;
+}
+.footer p {
+  font-family: segoeui;
+  margin-bottom: 3px;
+}
+
+.sosmed-icon {
+  width: 40px;
+  height: 40px;
+  margin:5px;
+}
+
+.bottom {
+  background: url('../img/web-hmif-background-bottom.jpg') no-repeat top center scroll;
+  background-size:cover;
+  height:400px;
+  width: auto;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+.bottom .btn-default  {
+  background-color: transparent;
+  color:#f3f36d;
+  padding: 10px 15px;
+  width: 200px;
+  font-family: segoeuil;
+  font-size:20px;
+  margin-top:250px;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: #f3f36d; 
+}
+.hvr-sweep-to-bottom:before{
+  background:#f3f36d !important;
+}
+
+.hvr-bounce-to-top:before{
+  background:#f3f36d !important;
+  color:#000 !important;
+}
+
+.hvr-bounce-to-top:hover{
+  color:#000 !important;
+}
+
+.custom-active{
+  background-color:#f3f36d;
+
+}
+
+.custom-active a{
+  color:#000 !important;
+}
